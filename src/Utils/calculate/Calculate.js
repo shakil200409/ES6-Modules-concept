@@ -6,6 +6,10 @@ const multiply = (n1, n2) => {
   return n1 * n2;
 };
 
+const divideTheFirstNumberByTheSecondNumber = (n1, n2) => {
+  return n1 / n2;
+};
+
 /**
  * There are some ways for exporting functions/ data:
  */
@@ -17,4 +21,4 @@ const multiply = (n1, n2) => {
 // export default calculator:
 
 // Way-3: Using Destructuring method to pass the data
-export { add, multiply };
+export { add, multiply, divideTheFirstNumberByTheSecondNumber };
